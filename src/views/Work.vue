@@ -2,7 +2,7 @@
   <div class="work">
     <CaseCardBig
       heading="E-WALLET"
-      imageName="ewallet1.png"
+      imageName="ewallet3.png"
       href="https://github.com/kajdabrowski/iths-e-wallet"
       description="E-wallet is a simple app built in Vuejs. The user can add and remove credit cards, set one card as active and see all cards available to them.
        The page has a Home view showing all cards, and an Add card view where new cards can be added by filling out a form. The new card is then

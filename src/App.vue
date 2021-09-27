@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-      <nav class="nav">
+    <TheHeader />
+      <!-- <nav class="nav">
         <router-link class="nav__link nav__link--left" to="/"
           >KAJ DABROWSKI</router-link
         >
@@ -10,11 +11,10 @@
         <router-link class="nav__link nav__link--right" to="/about"
           >ABOUT</router-link
         >
-      </nav>
+      </nav> -->
       <router-view />
-      <footer class="footer">
+      <!-- <footer class="footer">
         <p class="footer__star">*</p>
-        <!--Fulhack-->
         <p class="footer__text">GET IN TOUCH</p>
         <div class="footer__links">
           <a target="_blank" href="https://github.com/kajdabrowski">GITHUB</a>
@@ -23,12 +23,20 @@
           >
           <a target="_blank" href="kaj.dabrowski@gmail.com">GMAIL</a>
         </div>
-      </footer>
+      </footer> -->
+    <TheFooter />
   </div>
 </template>
 
 <script>
 import './App.scss'
+import TheHeader from '@/components/TheHeader.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
-export default {}// Add components, computed props, hooks, methods etc that are part of app.
+export default {
+  components: {
+    TheHeader,
+    TheFooter
+  }
+}// Add components, computed props, hooks, methods etc that are part of app.
 </script>

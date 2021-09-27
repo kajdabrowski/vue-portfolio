@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+import TheHeader from '@/components/TheHeader.vue'
+import TheFooter from '@/components/TheFooter.vue'
 import BaseIntro from '@/components/BaseIntro.vue'
 import BaseParagraph from '@/components/BaseParagraph.vue'
 import ExperienceTable from '@/components/ExperienceTable.vue'
@@ -10,6 +12,8 @@ import CaseCardBig from '@/components/CaseCardBig.vue'
 import OtherProjectGrid from '@/components/OtherProjectGrid.vue'
 
 Vue.config.productionTip = false
+Vue.component('TheHeader', TheHeader)
+Vue.component('TheFooter', TheFooter)
 Vue.component('BaseIntro', BaseIntro)
 Vue.component('BaseParagraph', BaseParagraph)
 Vue.component('ExperienceTable', ExperienceTable)

@@ -8,6 +8,7 @@
     margin-top: 7em;
     &__title{
         font-size: 3em;
+        margin-left: 3.5em;
     }
 }
 
@@ -15,11 +16,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 5.5em;
 }
 
 .otherprojects__container--item{
     margin: 1em;
-    border: 0.2em solid black;
-    border-radius: 15px;
+    // border: 0.2em solid black;
+    // border-radius: 15px;
     justify-self: center;
 }
