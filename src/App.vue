@@ -1,32 +1,34 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+      <nav class="nav">
+        <router-link class="nav__link nav__link--left" to="/"
+          >KAJ DABROWSKI</router-link
+        >
+        <router-link class="nav__link nav__link--right" to="/work"
+          >WORK</router-link
+        >
+        <router-link class="nav__link nav__link--right" to="/about"
+          >ABOUT</router-link
+        >
+      </nav>
+      <router-view />
+      <footer class="footer">
+        <p class="footer__star">*</p>
+        <!--Fulhack-->
+        <p class="footer__text">GET IN TOUCH</p>
+        <div class="footer__links">
+          <a target="_blank" href="https://github.com/kajdabrowski">GITHUB</a>
+          <a target="_blank" href="https://se.linkedin.com/in/kaj-dabrowski-a550b4202"
+            >LINKEDIN</a
+          >
+          <a target="_blank" href="kaj.dabrowski@gmail.com">GMAIL</a>
+        </div>
+      </footer>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import './App.scss'
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+export default {}// Add components, computed props, hooks, methods etc that are part of app.
+</script>

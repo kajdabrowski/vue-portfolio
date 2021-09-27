@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.otherprojects{
+    font-family: Roboto, sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7em;
+    &__title{
+        font-size: 3em;
+    }
+}
+
+.otherprojects__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.otherprojects__container--item{
+    margin: 1em;
+    border: 0.2em solid black;
+    border-radius: 15px;
+    justify-self: center;
+}

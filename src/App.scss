@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  color: black;
+}
+
+.nav {
+  padding: 2em;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed; //fixed menu
+  width: 100%; //fixed menu
+  top: 0; //fixed menu
+  &__link--left {
+    color: black;
+    justify-content: flex-start;
+    text-decoration: none;
+  }
+  &__link--right {
+    color: black;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+}
+
+.router-link-exact-active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  zoom: 115%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 2em;
+  height: auto;
+  width: auto;
+
+  a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 0.5em;
+    color: white;
+    font-weight: 700;
+  }
+  
+  &__links {
+    flex-direction: column;
+    color: white;
+    :hover {
+      zoom: 115%;
+    }
+    :active {
+      text-decoration: none;
+    }
+    :visited {
+      color: white;
+      text-decoration: none;
+    }
+    font-family: Roboto, sans-serif;
+    color: white;
+  }
+
+}
+
+.footer__star{
+    color: black;
+}
+
+.footer__text {
+  font-family: Roboto, sans-serif;
+  color: #f9f9f9;
+  font-weight: 700;
+  font-size: 5em;
+}
