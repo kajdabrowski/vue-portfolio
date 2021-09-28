@@ -2,9 +2,9 @@
 
 //Breaks when resizing window
 .imagetext__container{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10em;
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-top: 10em;
     max-width: 75%;
 }
 
@@ -22,7 +22,7 @@
         grid-column-start: 4;
         grid-column-end: 5;
         font-size: 3em;
-        margin-top: 2em;
+        // margin-top: 2em;
         // mix-blend-mode: difference; //Skapar kontrast mellan rubbe och bild, men funkar inte
         &text--content{
             color: black;

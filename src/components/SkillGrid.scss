@@ -5,7 +5,7 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 7em;
+    margin-top: 8em;
     &__title{
         font-size: 3em;
         margin-left: 3em;
@@ -16,6 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: 1em;
 }
 
 .skillgrid__container--item{
@@ -24,4 +25,6 @@
     border: 0.2em solid black;
     border-radius: 15px;
     justify-self: center;
+    max-height: 75%; //Gör lådorna lika stora
+    max-width: 75%; //Gör lådorna lika stora
 }

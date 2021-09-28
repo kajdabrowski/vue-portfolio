@@ -11,7 +11,7 @@
 
 .experiencetable{
     width: 90%;
-    margin: 5% auto;
+    // margin: 5% auto;
     font-weight: 700;
     // text-align: justify;
 }
@@ -22,8 +22,8 @@
     grid-template-rows: 1fr;
     grid-row: 1;
     border-bottom: 0.1em solid black;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    // padding-top: 1em;
+    // padding-bottom: 1em;
     &--item1{
         text-align: left;
     }
@@ -41,9 +41,9 @@
     grid-template-rows: 1fr;
     grid-row: 1;
     border-bottom: 0.1em solid black;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 5em;
+    // padding-top: 1em;
+    // padding-bottom: 1em;
+    // margin-bottom: 5em;
 
     &--item1{
         text-align: left;

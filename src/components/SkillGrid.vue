@@ -24,8 +24,8 @@
         />
          <img
           class="skillgrid__container--item"
-          src="@/assets/images/npmvector.png"
-          alt="NodeJS-logo"
+          src="@/assets/images/npmvector2.png"
+          alt="Npm-logo"
         />
         <img
           class="skillgrid__container--item"
