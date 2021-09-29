@@ -2,13 +2,13 @@
 
 .otherprojects{
     font-family: Roboto, sans-serif;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    // width: 80%;
+    // margin-left: 10%;
+    // margin-right: 10%;
     margin-top: 7em;
     &__title{
         font-size: 3em;
-        margin-left: 3.5em;
+        // margin-left: 3.5em;
     }
 }
 
@@ -17,11 +17,34 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-bottom: 5.5em;
+    // justify-content: space-between;
+    // border: 1px solid black;
 }
 
-.otherprojects__container--item{
-    margin: 1em;
-    // border: 0.2em solid black;
-    // border-radius: 15px;
-    justify-self: center;
+.container__row1{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    &--item1{
+        justify-self: left;
+    }
+    &--item2{
+        justify-self: center;
+    }
+    &--item3{
+        justify-self: right;
+    }
+}
+
+.container__row2{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    &--item1{
+        justify-self: left;
+    }
+    &--item2{
+        justify-self: center;
+    }
+    &--item3{
+        justify-self: right;
+    }
 }

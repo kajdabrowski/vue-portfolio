@@ -1,17 +1,13 @@
 <template>
   <div class="casecardbig__container">
-    <div class="casecardbig__upper">
-      <h1 class="heading">
+      <h1 class="casecardbig__heading">
         {{ heading }}
       </h1>
-      <img :src="require('@/assets/images/' + imageName + '')" />
-    </div>
-    <div class="casecardbig__lower">
+      <img class="casecardbig__img" :src="require('@/assets/images/' + imageName + '')" />
       <a target="_blank" :href="href">View code on GitHub ></a>
       <p>
         {{ description }}
       </p>
-    </div>
   </div>
 </template>
 
