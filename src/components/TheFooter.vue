@@ -24,8 +24,8 @@ export default {
   justify-content: space-between;
   background-color: black;
   padding: 2em;
-//   height: auto;
-//   width: auto;
+  height: auto;
+  // width: auto;
   width: 100%;
 
   a{
