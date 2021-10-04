@@ -22,12 +22,12 @@
 
 /* Ta bort margin och padding från alla komponenter, 
 lägg till margin i appcontainer istället. Placera sedan ut
-alla komponenter som de ska vara.
+alla komponenter som de ska vara. -- DONE
 
-- BaseIntro på about ska vara 2 rader.
+- BaseIntro på about ska vara 2 rader. DONE, ersatte BaseIntro med BaseIntroAbout. Dynamiska klasser istället?
+-Förbättre nav:en så att länkar syns bra när man scrollar. DONE 
 -Gör om CaseCardBig till version med rubrik+text på en sida och bild på andra.
 Gör även en speglad version. 
 - Ev. dynamiska css-klasser med v-bind.
 - Media queries.
--Förbättre nav:en så att länkar syns bra när man scrollar. ! Lade till vit bakgrund. 
 */ 

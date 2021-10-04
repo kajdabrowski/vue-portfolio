@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <BaseIntro msg="A LITTLE BIT ABOUT ME" />
+    <BaseIntroAbout msg1="A LITTLE" msg2=" BIT ABOUT ME" />
     <BaseParagraph
       msg="Hi, I'm Kaj Dabrowski, a web development student residing in the southern parts of Stockholm.
       I enjoy learning about new technologies, creative problem-solving and building and managing my own
@@ -15,14 +15,14 @@ application to providing content for it." />
 </template>
 
 <script>
-import BaseIntro from '@/components/BaseIntro.vue'
+import BaseIntroAbout from '@/components/BaseIntroAbout.vue'
 import BaseParagraph from '@/components/BaseParagraph.vue'
 import SkillGrid from '@/components/SkillGrid.vue'
 
 export default {
   name: 'About',
   components: {
-    BaseIntro,
+    BaseIntroAbout,
     BaseParagraph,
     SkillGrid
   }

@@ -1,12 +1,12 @@
 <template>
   <nav class="nav">
-    <router-link class="nav__link nav__link--left" to="/"
+    <router-link class="nav__link" to="/"
       >KAJ DABROWSKI</router-link
     >
-    <router-link class="nav__link nav__link--right" to="/work"
+    <router-link class="nav__link" to="/work"
       >WORK</router-link
     >
-    <router-link class="nav__link nav__link--right" to="/about"
+    <router-link class="nav__link" to="/about"
       >ABOUT</router-link
     >
   </nav>
@@ -42,14 +42,13 @@ export default {
 // }
 
 //Hover underline - how to set on non-active router links on hover?
-.router-link-exact-active {
+.nav__link { // router-link-exact-active
   display: inline-block;
   position: relative;
   color: black;
-  zoom: 120%;
 }
 
-.router-link-exact-active:after {
+.nav__link:after { // router-link-exact-active:after
   content: "";
   position: absolute;
   width: 100%;
@@ -62,9 +61,13 @@ export default {
   transition: transform 0.35s ease-out;
 }
 
-.router-link-exact-active:hover:after {
+.nav__link:hover:after { // router-link-exact-active:hover:after
   transform: scaleX(1);
   transform-origin: bottom center;
+}
+
+.router-link-exact-active{
+  zoom: 120%;
 }
 
 </style>
