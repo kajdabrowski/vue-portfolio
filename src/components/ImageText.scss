@@ -5,6 +5,8 @@
     margin-right: auto;
     margin-top: 10em;
     max-width: auto;
+    background-image: url(../assets/images/laptop2.png);
+    background-repeat: no-repeat;
 }
 
 .imagetext{
@@ -12,25 +14,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    &__img{
-        opacity: 80%;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        max-width: 100%;
-    }
+    // &__img{
+    //     opacity: 80%;
+    //     grid-column-start: 1;
+    //     grid-column-end: 4;
+    //     max-width: 100%;
+    // }
     &__text{
         grid-column-start: 4;
         grid-column-end: 5;
         font-size: 3em;
         margin-top: 30%;
         margin-bottom: 3em;
-        margin-left: 25%;
-        // mix-blend-mode: difference; //Skapar kontrast mellan rubbe och bild, men funkar inte
+        // margin-left: 25%;
+        // mix-blend-mode:luminosity; //Skapar kontrast mellan rubbe och bild. Soft-light, overlay,
         &text--content{
-            color: black;
-            margin-left: 100em;
-            opacity: 0%;
+            // color: black;
+            // margin-left: 100em;
+            // opacity: 0%;
 
+        }
+        &hero__img{
+            background-image: url(../assets/images/laptop.png);
         }
     }
 }

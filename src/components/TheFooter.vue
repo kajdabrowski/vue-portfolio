@@ -25,7 +25,6 @@ export default {
   background-color: black;
   padding: 2em;
   height: auto;
-  // width: auto;
   width: 100%;
 
   a{
@@ -38,6 +37,7 @@ export default {
   }
 
   &__links {
+    max-width: 5em;
     flex-direction: column;
     color: white;
     :hover {
@@ -65,5 +65,6 @@ export default {
   color: #f9f9f9;
   font-weight: 700;
   font-size: 5em;
+  margin-bottom: 0;
 }
 </style>

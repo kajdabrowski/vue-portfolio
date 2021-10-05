@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <BaseIntroAbout msg1="A LITTLE" msg2=" BIT ABOUT ME" />
+    <BaseIntroAbout msg1="A LITTLE BIT" msg2="ABOUT ME" />
     <BaseParagraph
       msg="Hi, I'm Kaj Dabrowski, a web development student residing in the southern parts of Stockholm.
       I enjoy learning about new technologies, creative problem-solving and building and managing my own

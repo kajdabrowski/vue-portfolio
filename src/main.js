@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import 'animate.css'
+// import animated from 'animate.css'
 
 import TheHeader from '@/components/TheHeader.vue'
 import TheFooter from '@/components/TheFooter.vue'
@@ -22,6 +24,8 @@ Vue.component('ExperienceTable', ExperienceTable)
 Vue.component('ImageText', ImageText)
 Vue.component('CaseCardBig', CaseCardBig)
 Vue.component('OtherProjectGrid', OtherProjectGrid)
+
+// Vue.use(animated)
 
 new Vue({
   router,
