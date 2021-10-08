@@ -1,6 +1,6 @@
 <template>
   <div class="skillgrid">
-    <h3 class="skillgrid__title">I WORK WITH</h3>
+    <h2 class="skillgrid__title">I WORK WITH</h2>
     <div class="skillgrid__wrapper">
       <div class="wrapper__row1 wrapper__row1--item1">
         <img src="@/assets/images/mdi_language-javascript.png" alt="JS-logo" />

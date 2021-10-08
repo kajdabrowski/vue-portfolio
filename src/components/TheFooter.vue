@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <p class="footer__star">*</p>
-        <p class="footer__text">GET IN TOUCH</p>
+        <h1 class="footer__text">GET IN TOUCH</h1>
         <div class="footer__links">
           <a target="_blank" href="https://github.com/kajdabrowski">GITHUB</a>
           <a target="_blank" href="https://se.linkedin.com/in/kaj-dabrowski-a550b4202"
@@ -25,7 +25,7 @@ export default {
   background-color: black;
   padding: 2em;
   height: auto;
-  width: 100%;
+  width: 100vw;
 
   a{
     display: flex;
@@ -61,10 +61,16 @@ export default {
 }
 
 .footer__text {
-  font-family: Roboto, sans-serif;
+  // font-family: Roboto, sans-serif;
   color: #f9f9f9;
   font-weight: 700;
-  font-size: 5em;
+  // font-size: 5em;
   margin-bottom: 0;
 }
+
+// @media only screen and(max-width: 600px){
+//   .footer{
+//     background-color: peachpuff;
+//   }
+// }
 </style>

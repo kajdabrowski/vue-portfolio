@@ -7,7 +7,7 @@
     // margin-right: 10%;
     margin-top: 7em;
     &__title{
-        font-size: 3em;
+        // font-size: 3em;
         // margin-left: 3.5em;
     }
 }
@@ -46,5 +46,19 @@
     }
     &--item3{
         justify-self: right;
+    }
+}
+
+@media (max-width: 600px){
+    .otherprojects__container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 300px){
+    .otherprojects__container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 }

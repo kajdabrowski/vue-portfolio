@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-      <h1 class="animate__animated animate__bounce intro intro__text">
+      <h1 class="intro intro__text">
         {{ msg }}
       </h1>
   </div>

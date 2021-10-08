@@ -3,15 +3,15 @@
 .skillgrid{
     font-family: Roboto, sans-serif;
     margin-top: 7em;
-    &__title{
-        font-size: 3em;
-        margin-bottom: 1em;
-    }
+    // &__title{
+    //     font-size: 3em;
+    //     margin-bottom: 1em;
+    // }
 }
 
 .skillgrid__wrapper{
     text-align: center;
-    font-weight: 700;
+    // font-weight: 700;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -48,5 +48,25 @@
     }
     &--item3{
         justify-self: right;
+    }
+}
+
+@media (max-width: 600px){
+    .skillgrid__wrapper{
+        text-align: center;
+        // font-weight: 700;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 300px){
+    .skillgrid__wrapper{
+        text-align: center;
+        // font-weight: 700;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 }

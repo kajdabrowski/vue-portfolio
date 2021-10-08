@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
-//Old, top-down stacked styling
-
 .casecardbig__container{
     margin-top: 2em;
     display: flex;
@@ -13,7 +11,7 @@
 }
 
 .casecardbig__heading{
-    font-size: 5.5em;
+    // font-size: 5.5em; - kommer från global i app.scss nu. 
     text-align: center;
 }
 
@@ -24,16 +22,18 @@
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
+// a {
+//     text-decoration: none;
+//     color: black;
+//     font-weight: 700;
+//     margin-top: 1em;
+//     margin-bottom: 1em;
+// }
 
-p {
-    margin-bottom: 1em;
-}
+// p {
+//     margin-bottom: 1em;
+//     font-weight: normal;
+   
+// }
 
 

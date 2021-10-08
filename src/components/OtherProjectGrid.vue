@@ -1,6 +1,6 @@
 <template>
   <div class="otherprojects">
-    <h3 class="otherprojects__title">OTHER PROJECTS</h3>
+    <h2 class="otherprojects__title">OTHER PROJECTS</h2>
     <div class="otherprojects__container">
       <img
         class="container__row1 container__row1--item1"
