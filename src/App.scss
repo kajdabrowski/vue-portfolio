@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0; 
   padding: 0;
+  // overflow: hidden;
 }
 
 #app {
@@ -21,7 +22,8 @@
 }
 
 h1{
-  font-size: clamp(2rem, 5rem, 8em); //small, medium and large. Mobile/tablet, desktop
+  font-size: clamp(0.7rem, -0.9333rem + 8.1667vw, 5.6rem);
+  // font-size: clamp(12px, 90px, 4.5em);
 }
 
 h2{
@@ -39,13 +41,13 @@ h3{
 
 p{
   font-family: Roboto, sans-serif;
-  font-size: 1em;
+  font-size: 1em; //clamp(0.5rem, 1rem, 2rem)
   font-weight: normal;
 }
 
 td{
   font-family: Roboto, sans-serif;
-  font-size: 1em;
+  font-size: 1em; //same as p
   font-weight: 700;
 }
 
@@ -57,14 +59,13 @@ a {
   margin-bottom: 1em;
 }
 
-/* Ta bort margin och padding från alla komponenter, 
-lägg till margin i appcontainer istället. Placera sedan ut
-alla komponenter som de ska vara. -- DONE
-
+/*
 - BaseIntro på about ska vara 2 rader. DONE, ersatte BaseIntro med BaseIntroAbout. Dynamiska klasser istället?
 -Förbättre nav:en så att länkar syns bra när man scrollar. DONE 
 -Gör om CaseCardBig till version med rubrik+text på en sida och bild på andra.
 Gör även en speglad version. 
 - Media queries.
 - Fixa semantiken i koden. Allting är i divar, komponenter är bara stackade på varandra. 
+- Fixa other projects grid:en och items, gör responsivt.
+- Fixa ImgText komponenten, gör responsivt.  
 */ 

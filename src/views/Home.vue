@@ -27,3 +27,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.home{
+  margin: 2em;
+}
+</style>

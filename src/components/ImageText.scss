@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
+// Old styling
 .imagetext__container {
   margin-left: auto;
   margin-right: auto;
@@ -7,24 +8,17 @@
   max-width: auto;
   background-image: url(../assets/images/laptop2.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  &--text{
+    grid-column-start: 4;
+    grid-row-start: 2;
+  }
 }
 
-.imagetext {
-  // font-family: Roboto, sans-serif;
+.imagegrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-
-  &__text {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    // font-size: 3em;
-    // font-size: clamp(2rem, 5rem, 8rem);
-    margin-top: 30%;
-    margin-bottom: 3em;
-  }
-
-//   &__text--content {
-//     font-size: clamp(0.5rem, 2em, 4em);
-//   }
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 5em;
 }
+

@@ -68,9 +68,10 @@ export default {
   margin-bottom: 0;
 }
 
-// @media only screen and(max-width: 600px){
-//   .footer{
-//     background-color: peachpuff;
+//Mobile portrait
+// @media (min-width: 320px) and (max-width: 480px){
+//   .footer__text{
+//     color: red;
 //   }
 // }
 </style>

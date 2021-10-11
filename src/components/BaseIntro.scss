@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 .intro {
-    max-width: 55%;
+    max-width: 70%; // old 55%
     margin-top: 2em;
     margin-bottom: 1em;
     // &__text{
@@ -11,10 +11,22 @@
     // }
 }
 
+//Old/test MQ
 @media (max-width: 600px){
     .intro{
         max-width: 100%;
         margin-top: 2em;
         margin-bottom: 1em;
     }
+    // .intro__text{ // Lägg detta i clamp i app.scss istället. 
+    //     font-size: clamp(1em, 2em, 4em);
+    //     margin-top: 3em; //För att se under nav:en
+    //     font-weight: 700;
+    // }
 }
+
+//MQ dimensions: 
+
+
+//Mobile
+// @media (min-width: 320px) and (max-width: 480px)

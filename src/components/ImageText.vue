@@ -1,11 +1,9 @@
 <template>
   <div class="imagetext__container">
-    <div class="imagetext">
-      <div class="imagetext__text">
-        <h1 class="imagetext__text--content">
+    <div class="imagegrid">
+        <h1 class="imagetext__container--text">
           {{ textContent }}
         </h1>
-      </div>
     </div>
   </div>
 </template>

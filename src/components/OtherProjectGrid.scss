@@ -2,14 +2,7 @@
 
 .otherprojects{
     font-family: Roboto, sans-serif;
-    // width: 80%;
-    // margin-left: 10%;
-    // margin-right: 10%;
     margin-top: 7em;
-    &__title{
-        // font-size: 3em;
-        // margin-left: 3.5em;
-    }
 }
 
 .otherprojects__container{
@@ -17,8 +10,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-bottom: 5.5em;
-    // justify-content: space-between;
-    // border: 1px solid black;
 }
 
 .container__row1{
@@ -26,12 +17,21 @@
     margin-bottom: 2em;
     &--item1{
         justify-self: left;
+        max-width: 100%;
+        height: auto;
+        padding: 0.5em;
     }
     &--item2{
         justify-self: center;
+        max-width: 100%;
+        height: auto;
+        padding: 0.5em;
     }
     &--item3{
         justify-self: right;
+        max-width: 100%;
+        height: auto;
+        padding: 0.5em;
     }
 }
 
@@ -40,23 +40,32 @@
     margin-bottom: 2em;
     &--item1{
         justify-self: left;
+        max-width: 100%;
+        height: auto;
+        padding: 0.5em;
     }
     &--item2{
         justify-self: center;
+        max-width: 100%;
+        height: auto;
+        padding: 0.5em;
     }
     &--item3{
         justify-self: right;
+        max-width: 100%;
+        height: auto;
+        padding: 0.5em;
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 760px){
     .otherprojects__container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
-@media (max-width: 300px){
+@media (max-width: 300px){ // ?
     .otherprojects__container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;

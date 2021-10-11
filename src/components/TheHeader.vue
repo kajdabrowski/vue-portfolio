@@ -19,6 +19,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+//Desktop
 .nav {
   padding: 1em;
   font-family: Roboto, sans-serif;
@@ -30,25 +31,18 @@ export default {
   position: fixed; //fixed menu
   width: 100%; //fixed menu
   top: 0; //fixed menu
+  margin-bottom: 0.5em;
+  // margin: 2em;
 }
 
-//OLD ROUTER LINK CLASS
-// .router-link-exact-active {
-//   text-decoration: underline rgba(0, 0, 0, 1);
-//   text-underline-offset: 0.2em;
-//   transition: text-underline-offset 500ms;
-//   text-decoration-thickness: 0.12em;
-//   zoom: 115%;
-// }
-
-//Hover underline - how to set on non-active router links on hover?
-.nav__link { // router-link-exact-active
+.nav__link {
   display: inline-block;
   position: relative;
   color: black;
+  margin: 0.5em;
 }
 
-.nav__link:after { // router-link-exact-active:after
+.nav__link:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -61,7 +55,7 @@ export default {
   transition: transform 0.35s ease-out;
 }
 
-.nav__link:hover:after { // router-link-exact-active:hover:after
+.nav__link:hover:after {
   transform: scaleX(1);
   transform-origin: bottom center;
 }
@@ -69,5 +63,12 @@ export default {
 .router-link-exact-active{
   zoom: 120%;
 }
+
+//Tablets, portrait
+// @media (min-width: 768px) and (max-width: 1024px){
+//   .nav{
+//     max-width: 100%;
+//   }
+// }
 
 </style>
