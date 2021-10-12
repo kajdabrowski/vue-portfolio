@@ -53,3 +53,9 @@
         text-align: right;
     }
 }
+
+@media (min-width: 320px) and (max-width: 500px){
+    .experiencetable__row2{
+        margin-bottom: 0;
+    }
+}

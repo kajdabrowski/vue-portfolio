@@ -22,3 +22,8 @@
   margin-bottom: 5em;
 }
 
+@media (min-width: 320px) and (max-width: 500px){
+  .imagetext__container{
+    margin-top: 3em;
+  }
+}

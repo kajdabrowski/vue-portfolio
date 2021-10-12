@@ -69,9 +69,16 @@ export default {
 }
 
 //Mobile portrait
-// @media (min-width: 320px) and (max-width: 480px){
-//   .footer__text{
-//     color: red;
-//   }
-// }
+@media (min-width: 320px) and (max-width: 480px){
+  .footer__text{
+    display: none;
+  }
+  .footer__star{
+    display: none;
+  }
+  .footer__links{
+    display: flex;
+    flex-direction: row;
+  }
+}
 </style>

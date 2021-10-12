@@ -6,8 +6,24 @@
         margin-right: auto;
         margin-bottom: 2em;
         max-width: 40%;
-        // font-family: Roboto, sans-serif;
-        // font-size: 1em;
-        // font-weight: normal;
     }
 }
+
+//Tablet landscape
+@media (min-width: 768px) and (max-width: 1024px) {
+    .paragraph{
+        &__text{
+            max-width: 60%;
+        }
+    }
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 767px){
+    .paragraph{
+        &__text{
+            max-width: 80%;
+            margin-bottom: 1em;
+        }
+    }
+  }

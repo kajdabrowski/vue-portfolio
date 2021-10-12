@@ -6,7 +6,7 @@
     />
     <BaseParagraph msg="I study Javascript-development at IT-Högskolan in Stockholm. I enjoy working in the intersection of technology and media and combine writing code with writing punchy copy.
     I believe that your content is just as important as the look and feel of your website - and I can help you with both. If you know of any opportunities or just feel like getting a cup of coffee, please get in touch!" />
-    <ImageText textContent="WEB DEVELOPMENT & COPY WRITING" imageName="laptop.png"/>
+    <ImageText textContent="CODING & COPY WRITING" imageName="laptop.png"/>
     <ExperienceTable />
   </div>
 </template>

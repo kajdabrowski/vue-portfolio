@@ -58,16 +58,13 @@
     }
 }
 
-@media (max-width: 760px){
+@media (min-width: 320px) and (max-width: 500px){
+    .otherprojects{
+        margin-top: 3em;
+    }
+
     .otherprojects__container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-    }
-}
-
-@media (max-width: 300px){ // ?
-    .otherprojects__container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 }

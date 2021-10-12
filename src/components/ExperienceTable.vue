@@ -1,7 +1,7 @@
 <template>
   <div class="experience">
       <table class="experiencetable">
-    <h3 class="experience__title">EXPERIENCE</h3>
+    <h2 class="experience__title">EXPERIENCE</h2>
         <tr class="experiencetable__row1">
           <td class="experiencetable__row1--item1">CC PROJECTS</td>
           <td class="experiencetable__row1--item2">AUG 2021 - OCT 2021</td>
