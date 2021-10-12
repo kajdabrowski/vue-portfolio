@@ -16,13 +16,12 @@
             max-width: 60%;
         }
     }
-    
   }
 
   @media (min-width: 320px) and (max-width: 767px){
     .paragraph{
         &__text{
-            max-width: 80%;
+            max-width: 100%;
             margin-bottom: 1em;
         }
     }
