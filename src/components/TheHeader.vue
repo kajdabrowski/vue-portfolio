@@ -64,11 +64,4 @@ export default {
   zoom: 120%;
 }
 
-//Tablets, portrait
-// @media (min-width: 768px) and (max-width: 1024px){
-//   .nav{
-//     max-width: 100%;
-//   }
-// }
-
 </style>

@@ -37,7 +37,7 @@ export default {
   }
 
   &__links {
-    max-width: 5em;
+    // max-width: 5em;
     flex-direction: column;
     color: white;
     :hover {
@@ -61,24 +61,27 @@ export default {
 }
 
 .footer__text {
-  // font-family: Roboto, sans-serif;
   color: #f9f9f9;
   font-weight: 700;
-  // font-size: 5em;
   margin-bottom: 0;
 }
 
-//Mobile portrait
-@media (min-width: 320px) and (max-width: 480px){
-  .footer__text{
-    display: none;
-  }
-  .footer__star{
-    display: none;
-  }
-  .footer__links{
-    display: flex;
-    flex-direction: row;
+@media (max-width: 480px){ //@media (min-width: 320px) and (max-width: 480px)
+  .footer{
+    &__text{
+      display: none;
+    }
+
+    &__star{
+      display: none;
+    }
+
+    &__links{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
   }
 }
 </style>
