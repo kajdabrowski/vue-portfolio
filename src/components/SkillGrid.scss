@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    align-items: flex-start;
+    // align-items: flex-start;
 }
 
 .wrapper__row1{
@@ -59,6 +59,51 @@
     }
 }
 
+@media (min-width: 501px) and (max-width: 700px){
+    .skillgrid__wrapper{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .wrapper__row1{
+        border: 3px solid black;
+        border-radius: 15px;
+        padding: 1.5em;
+        max-width: 100%;
+        &--item1{
+            justify-self: center;
+    
+            }
+        &--item2{
+            justify-self: center;
+        }
+        &--item3{
+            justify-self: center;
+        }
+    }
+
+    .wrapper__row2{
+        border: 3px solid black;
+        border-radius: 15px;
+        padding: 1.5em;
+        max-width: 100%;
+        height: auto;
+        &--item1{
+            justify-self: center;
+    
+            }
+        &--item2{
+            justify-self: center;
+        }
+        &--item3{
+            justify-self: center;
+        }
+    }
+}
+
+
 
 @media (min-width: 320px) and (max-width: 500px){ //was @media (max-width: 600px)
     .skillgrid{
@@ -70,7 +115,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        flex-flow: flex-end;
     }
 
     .wrapper__row1{
@@ -79,14 +123,14 @@
         padding: 0.5em;
         max-width: 100%;
         &--item1{
-            justify-self: left;
+            justify-self: center;
     
             }
         &--item2{
             justify-self: center;
         }
         &--item3{
-            justify-self: right;
+            justify-self: center;
         }
     }
 
@@ -97,14 +141,14 @@
         max-width: 100%;
         height: auto;
         &--item1{
-            justify-self: left;
+            justify-self: center;
     
             }
         &--item2{
             justify-self: center;
         }
         &--item3{
-            justify-self: right;
+            justify-self: center;
         }
     }
 }
