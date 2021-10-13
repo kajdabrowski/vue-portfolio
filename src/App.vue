@@ -18,5 +18,5 @@ export default {
     TheHeader,
     TheFooter
   }
-}// Add components, computed props, hooks, methods etc that are part of app.
+}
 </script>

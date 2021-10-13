@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0; 
   padding: 0;
-  // overflow: hidden;
 }
 
 #app {
@@ -22,25 +21,24 @@
 }
 
 h1{
-  font-size: clamp(3rem, 2.1333rem + 4.3333vw, 5.6rem); // was font-size: clamp(0.7rem, -0.9333rem + 8.1667vw, 5.6rem)
-  // font-size: clamp(12px, 90px, 4.5em)320;
+  font-size: clamp(3rem, 2.1333rem + 4.3333vw, 5.6rem);
 }
 
 h2{
-  font-family: Roboto, sans-serif; // was clamp(1rem, 2.5rem, 4rem)
+  font-family: Roboto, sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 p{
   font-family: Roboto, sans-serif;
-  font-size: clamp(0.9rem, 0.8667rem + 0.1667vw, 1rem); // was 1em
+  font-size: clamp(0.9rem, 0.8667rem + 0.1667vw, 1rem);
   font-weight: normal;
 }
 
 td{
   font-family: Roboto, sans-serif;
-  font-size: clamp(0.9rem, 0.8667rem + 0.1667vw, 1rem); // was 1em
+  font-size: clamp(0.9rem, 0.8667rem + 0.1667vw, 1rem);
   font-weight: 700;
 }
 
@@ -57,25 +55,3 @@ nav {
   font-size: clamp(0.9rem, 0.8667rem + 0.1667vw, 1rem);
   font-weight: 700;
 }
-
-/*
-- BaseIntro på about ska vara 2 rader. DONE, ersatte BaseIntro med BaseIntroAbout. Dynamiska klasser istället?
--Förbättre nav:en så att länkar syns bra när man scrollar. DONE 
--Gör om CaseCardBig till version med rubrik+text på en sida och bild på andra.
-Gör även en speglad version. 
-- Media queries.
-- Fixa semantiken i koden. Allting är i divar, komponenter är bara stackade på varandra. 
-- Fixa other projects grid:en och items, gör responsivt.
-- Fixa ImgText komponenten, gör responsivt.  
-
-Rabis värden:
-h1 desktop figma
-p 16 desktop
-nav 24px desktop
-
-h1 3.2em mobil
-p 14 mobil
-nav 24px mobil 
-
-nav desktop 
-*/ 

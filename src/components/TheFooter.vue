@@ -7,7 +7,7 @@
           <a target="_blank" href="https://se.linkedin.com/in/kaj-dabrowski-a550b4202"
             >LINKEDIN</a
           >
-          <a target="_blank" href="kaj.dabrowski@gmail.com">GMAIL</a>
+          <a target="_blank" href="mailto: kaj.dabrowski@gmail.com">GMAIL</a>
         </div>
       </footer>
 </template>
@@ -19,6 +19,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -37,11 +38,10 @@ export default {
   }
 
   &__links {
-    // max-width: 5em;
     flex-direction: column;
     color: white;
     :hover {
-      zoom: 115%;
+      transform: scale(1.1);// zoom: 115%
     }
     :active {
       text-decoration: none;
@@ -66,7 +66,7 @@ export default {
   margin-bottom: 0;
 }
 
-@media (max-width: 480px){ //@media (min-width: 320px) and (max-width: 480px)
+@media (max-width: 480px){
   .footer{
     &__text{
       display: none;
